@@ -1,0 +1,388 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* End Font */
+
+/* Start Body */
+body {
+   
+    color : black;
+    font-family: Roboto,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 12;
+    line-height:1.5em;
+    margin:0px; 
+}
+/* End Body */
+
+/* Start Debug */
+
+.w-biru{
+    background-image:url('../gambar/gedung.jpg');
+    background-color: rgba(111, 111, 153, 0.26);
+    padding:20px;
+}
+.w1-merah{
+    background-color:gray;
+   
+}
+/* End Debug */
+
+
+/* Start Container */
+.container{
+    margin:10px auto;
+    overflow:auto;
+    width: 90%;
+}
+.container_full{
+    margin:10px auto;
+    overflow:auto;
+    width: 100%;
+}
+/*End Container */
+
+/* Start Logo */
+.logo{
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu_primer ul{
+    background-color: #aae739d2;
+    border-radius:4px;
+    box-shadow: 
+    0 3px 5px -1px rgba(0,0,0,.2),
+    0 6px 10px 0px rgba(0,0,0,.14),
+    0 1px 18px 0px rgba(0,0,0,.12);
+}
+
+.menu_primer li{
+    border-right: 1px solid #d1d6df;
+    display:inline-block;
+    margin: 8px  8px ;
+}
+
+.menu_primer a{
+    color : #ffffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing:2px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu_primes a:hover{
+    background-color:black;
+    color:greenyellow;
+    text-decoration:none;
+}
+
+.menu_primer .active{
+    background-color:  rgba(89, 0, 255, 0.315);
+    color:#333333;
+    text-decoration:none;
+}
+/* End Menu Primer */
+
+/* Start Anchor /Hyperlink */
+a:link,
+a:visited{
+    color:#0366df;
+    text-decoration:none;
+}
+a:hover,
+a:active{
+    color:#000000;
+    text-decoration:underline;
+}
+/* End Anchor /Hyperlink */
+
+
+/* Start Heading */
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size:24px;
+}
+h2{
+    font-size:20px;
+}
+h3{
+    font-size:18px;
+}
+h4{
+    font-size:14px;
+}
+h5{
+    font-size:14px;
+}
+h6{
+    font-size:12px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron{
+    background-color: #f6f8fa;
+    border: 1px solid #eaffcc;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main*/
+.main_jumbo{
+    background-color: #f6f8fa;
+    border: 1px solid #eaffcc;
+    padding: 3px 0;
+}
+.main-home-one{
+    float:left;
+    width:49.5%;
+    height: 50%;
+}
+.main-home-two{
+    float:right;
+    width:49.5%;
+    height:50%;
+}
+
+.main-home-fas{
+    float:left;
+    width:49.5%;
+    height: 50%;
+}
+.main-home-two li{
+    text-align:"justify";
+}
+
+.main-home-one .box_isi,
+.main-home-two .box_isi
+{
+    height:375px;
+}
+.main-home-fas .box_isi{
+    height:600px;
+    overflow: hidden;
+}
+
+/* End Main */
+
+/* Start Box */
+.box_heading{
+    background-color: #f6fafd;
+    border: 1px solid #d2d3d4;
+    border-radius: 3px 3px 0 0;
+    padding: 10px 20px;
+    text-transform:uppercase;
+}
+.box_heading h4{
+    font-size:14px;
+    margin :0;
+}
+.box_isi{
+    background-color: #f6fafd;
+    border: 1px solid #e2d3d4;
+    border-top:0;
+    margin:0;
+    padding: 10px 20px;
+   }
+.box_isi_keg{
+    background-color: #f6fafd;
+    border: 1px solid #e2d3d4;
+    border-top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+/* End Box */
+/* Start Testimonial */
+.testimonial{
+    border-left: 4px solid #defa24;
+    margin-left: 0;
+    padding: 10px 25px;
+}
+/* End Testimonial */
+
+/* Start Layanan Table */
+.layanan-table{
+    border: 1px solid #d2d5df;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%
+}
+.layanan-table th{
+    background-color:#f3d7f3;
+}
+.layanan-table td{
+    text-align:center;
+}
+/* End Layanan Table */
+
+/* Start Form */
+input[type="text"],
+input[type="email"],
+textarea{
+    font-size:14px;
+    padding :10px;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color:#888888;
+    font-weight:300;
+}
+
+input[type="submit"],
+.button{
+    background-color:#cff3f6;
+    background-image:linear-gradient(-180deg,#fafbfc 0%,#eff3f6 90%);
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color: #000000 !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing:1px;
+}
+/* End Form */
+
+/* Start Contact Form */
+.contact-form div{
+    margin:20px 0;
+}
+/* End Contact Form */
+.menu_profil{
+    background-color: #f4f8fa;
+    border-bottom: 1px solid #eaecef;
+    border-top:1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0; 
+}
+.menu_profil1{
+    float:left;
+    width:30%;
+}
+
+.menu_profil2{
+    float:right;
+    width:30%;
+}
+
+.menu_profil3{
+    float:left;
+    width:40%;
+}
+.menu_profil1 .box_isi,
+.menu_profil2 .box_isi,
+.menu_profil3 .box_isi
+{
+    height:400px;
+    overflow: hidden;
+}
+
+.menu_profil3 .box_isi .atur_gbr1 p{
+    font-size: 15px;
+    text-align: left;
+}*/
+/* End Menu Profil */
+
+/* Start Menu Sekunder */
+.menu_sekunder{
+   background-color: #f4f8ff;
+   border-bottom: 1px solid #eaecef;
+   border-top:1px solid #eaecef;
+   overflow: auto;
+   padding: 10px 0;
+}
+.menu_sekunder h4{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu_sekunder ul{
+    padding:0;
+}
+.menu_sekunder li{
+   list-style:dish;
+}
+.menu_sekunder li,a,
+.menu_sekunder p{
+    font-size: 15px;
+}
+.menu_sekunder_one,
+.menu_sekunder_two,
+.menu_sekunder_three{
+    float: left;
+}
+.menu_sekunder_one{
+    width:40%;
+}
+.menu_sekunder_two,
+.menu_sekunder_three{
+    width:30%;
+}
+.menu_sekunder li img{
+    vertical-align: middle;
+}
+.atur-logo{
+    position:absolute;
+    bottom: 4pX;
+    left:1355px;
+    top:115px;
+}
+.atur-logo1{
+    position:absolute;
+    left:1020px;
+    top:115px;
+}
+.atur_gbr1{
+    position:absolute;
+    bottom: 18pX;
+    left:565px;
+    top:380px;
+    text-align: center;
+}
+.atur_gbr1a{
+    position:absolute;
+    bottom: 18pX;
+    left:565px;
+    top:600px;
+    text-align: center;
+}
+.atur_gbr2{
+    position:absolute;
+    bottom: 18pX;
+    left: 500px;
+    top:600px;
+    text-align: center;
+}
+.atur_gbr3{
+    position:absolute;
+    bottom: 18pX;
+    left: 465px;
+    top:600px;
+    text-align: center;
+}
+
+/* End Menu Sekunder */
+
+/* Start Menu Profil */
+
+/* Start Copyright */
+.copyright p{
+    font-size: 15px;
+}
+/* End Copyright */
